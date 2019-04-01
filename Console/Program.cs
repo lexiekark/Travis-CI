@@ -84,10 +84,7 @@ namespace TravisCILab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
-			return Math.Pow(x,y);
+			return Math.Pow(Int32.Parse(x),Int32.Parse(y));
         }
     }
-
-
-
 }
